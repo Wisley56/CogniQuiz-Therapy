@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CogniQuiz Therapy</string>
+    <string name="title_activity_splash_screen1">SplashScreen1</string>
+    <string name="title_activity_initial">InitialActivity</string>
+</resources>
