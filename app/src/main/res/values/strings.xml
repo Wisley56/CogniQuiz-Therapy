@@ -2,4 +2,9 @@
     <string name="app_name">CogniQuiz Therapy</string>
     <string name="title_activity_splash_screen1">SplashScreen1</string>
     <string name="title_activity_initial">InitialActivity</string>
+    <string name="play">JOGAR</string>
+    <string name="quit">SAIR</string>
+    <string name="welcome">BEM VINDO</string>
+    <string name="txt_intro_app">No CogniQuiz Therapy você encontrará algumas situações comuns do dia a dia, e você irá responder como agiria nessas situações. Além disso, vamos explorar como a Terapia Cognitivo-Comportamental (TCC) pode ajudar a lidar com essas situações desafiadoras.</string>
+    <string name="start">Começar</string>
 </resources>

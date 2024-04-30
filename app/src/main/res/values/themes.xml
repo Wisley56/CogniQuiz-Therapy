@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.CogniQuizTherapy" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Base.Theme.CogniQuizTherapy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/light_pink</item>
+        <item name="colorSecondary">@color/light_purple</item>
+        <item name="android:textColorPrimary">@color/wine</item>
+        <item name="android:colorBackground">@color/light_pink</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:colorAccent">@color/wine</item> <!-- Cor de destaque -->
+
+        <!-- Configuração da barra de status -->
+        <item name="android:statusBarColor">@color/light_pink</item> <!-- Cor da barra de status -->
+
+        <!-- Configuração da barra de navegação -->
+        <item name="android:navigationBarColor">@color/white</item> <!-- Cor da barra de navegação -->
+
+        <!-- Configuração da cor do botão -->
+        <item name="android:colorButtonNormal">@color/light_purple</item> <!-- Cor do botão normal -->
+    </style>
 </resources>
