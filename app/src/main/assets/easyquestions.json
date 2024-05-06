@@ -1,0 +1,74 @@
+{
+  "easyquestions": [
+    {
+      "question": "Quais das imagens abaixo representa seu sentimento ao receber uma notícia triste sobre a perda de um ente querido?",
+      "answer1": "triste",
+      "answer2": "furia",
+      "answer3": "neutro",
+      "answer4": "feliz",
+      "answer5": "duvida",
+      "answer6": "normal",
+      "answerCorrect": "triste"
+    },
+    {
+      "question": "Quais das imagens abaixo representa seu sentimento ao encontrar um erro grave no trabalho?",
+      "answer1": "triste",
+      "answer2": "furia",
+      "answer3": "neutro",
+      "answer4": "feliz",
+      "answer5": "duvida",
+      "answer6": "normal",
+      "answerCorrect": "duvida"
+    },
+    {
+      "question": "Quais das imagens abaixo representa seu sentimento ao assistir a um filme de terror?",
+      "answer1": "triste",
+      "answer2": "furia",
+      "answer3": "neutro",
+      "answer4": "feliz",
+      "answer5": "duvida",
+      "answer6": "normal",
+      "answerCorrect": "triste"
+    },
+    {
+      "question": "Quais das imagens abaixo representa seu sentimento ao receber um mau atendimento ao cliente?",
+      "answer1": "triste",
+      "answer2": "furia",
+      "answer3": "neutro",
+      "answer4": "feliz",
+      "answer5": "duvida",
+      "answer6": "normal",
+      "answerCorrect": "duvida"
+    },
+    {
+      "question": "Quais das imagens abaixo representa seu sentimento ao lembrar de um momento doloroso do passado?",
+      "answer1": "triste",
+      "answer2": "furia",
+      "answer3": "neutro",
+      "answer4": "feliz",
+      "answer5": "duvida",
+      "answer6": "normal",
+      "answerCorrect": "triste"
+    },
+    {
+      "question": "Quais das imagens abaixo representa seu sentimento ao ler um comentário ofensivo nas redes sociais?",
+      "answer1": "triste",
+      "answer2": "furia",
+      "answer3": "neutro",
+      "answer4": "feliz",
+      "answer5": "duvida",
+      "answer6": "normal",
+      "answerCorrect": "neutro"
+    },
+    {
+      "question": "Quais das imagens abaixo representa seu sentimento antes de uma apresentação importante?",
+      "answer1": "triste",
+      "answer2": "furia",
+      "answer3": "neutro",
+      "answer4": "feliz",
+      "answer5": "duvida",
+      "answer6": "normal",
+      "answerCorrect": "neutro"
+    }
+  ]
+}

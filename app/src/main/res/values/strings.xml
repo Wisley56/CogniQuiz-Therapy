@@ -5,6 +5,29 @@
     <string name="play">JOGAR</string>
     <string name="quit">SAIR</string>
     <string name="welcome">BEM VINDO</string>
-    <string name="txt_intro_app">No CogniQuiz Therapy você encontrará algumas situações comuns do dia a dia, e você irá responder como agiria nessas situações. Além disso, vamos explorar como a Terapia Cognitivo-Comportamental (TCC) pode ajudar a lidar com essas situações desafiadoras.</string>
+    <string name="txt_intro_app">No CogniQuiz Therapy você encontrará algumas situações comuns do dia a dia, e você irá responder como agiria nessas situações.
+        Além disso, vamos explorar como a Terapia Cognitivo-Comportamental (TCC) pode ajudar a lidar com essas situações desafiadoras.</string>
     <string name="start">Começar</string>
+    <string name="sad">Triste</string>
+    <string name="normal">Normal/Tranquilo</string>
+    <string name="angry">Irritado</string>
+    <string name="neutral">Neutro</string>
+    <string name="happy">Feliz</string>
+    <string name="question">Dúvida</string>
+    <string name="fase1_title">Fase 1</string>
+    <string name="fase1txt">Vamos te apresentar algumas situações comuns da vida cotidiana. Seu desafio é identificar o sentimento correspondente a cada situação, escolhendo o emoji que melhor representa como você se sentiria. Vamos lá!</string>
+    <string name="fase2_title">Fase 2</string>
+    <string name="fase2txt">Agora você irá dizer qual possível ação escolheria diante dessas situações. Além disso, vamos explorar como a TCC pode ajudar a lidar com essas situações.</string>
+    <string name="dica_q8">Se você escolheu as opções A ou B, pode ser que esteja experimentando pensamentos automáticos negativos. Na TCC, aprendemos a desafiar esses pensamentos distorcidos.
+        Uma intervenção útil seria a técnica da reestruturação cognitiva. Isso envolve questionar os pensamentos automáticos, buscando evidências que os apoiem ou contradigam.
+        Por exemplo, você poderia se perguntar: "Há alguma evidência de que meu amigo está me ignorando?" ou "Existem outras explicações para o fato dele ainda não ter respondido?". Isso ajuda a desenvolver uma interpretação mais equilibrada da situação, promovendo uma resposta mais adaptativa, como a opção C, onde você considera que seu amigo pode estar ocupado e espera pacientemente por uma resposta.</string>
+    <string name="dica_q9">Se você escolheu as opções A ou C, é possível que esteja enfrentando pensamentos automáticos negativos, típicos em momentos de estresse. A TCC ajuda a identificar e questionar esses pensamentos.
+        Ao optar pela opção B e aplicar a técnica da respiração diafragmática, você utiliza uma estratégia eficaz para controlar a ansiedade. Essa prática não só ajuda a reduzir a tensão física e emocional, mas também promove um desempenho mais confiante e competente durante a apresentação.
+        Abaixo, irá ter uma pequena explicação da técnica.</string>
+    <string name="txt_ok">Ok</string>
+    <string name="txt_bye">Até breve</string>
+    <string name="txt_go_results">Tela de resultados</string>
+    <string name="txt_congratulations">Você concluiu nosso quiz, esperamos que tenha conseguido refletir e alcançado um auto conhecimento melhor para lidar com as situações desafiadoras da vida.</string>
+    <string name="congratulations_title">Parabéns</string>
+
 </resources>

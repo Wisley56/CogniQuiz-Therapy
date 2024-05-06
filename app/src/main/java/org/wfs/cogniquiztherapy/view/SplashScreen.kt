@@ -1,5 +1,6 @@
 package org.wfs.cogniquiztherapy.view
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import org.wfs.cogniquiztherapy.R
@@ -15,7 +16,9 @@ class SplashScreen : AppCompatActivity() {
         timer.schedule(object : TimerTask() {
             override fun run() {
                 runOnUiThread {
-                    FuncoesUtil().proximaTela(this@SplashScreen, InitialActivity::class.java)
+                    val intent = Intent(this@SplashScreen, InitialActivity::class.java)
+                    FuncoesUtil().proximaTela(this@SplashScreen, intent)
+                    finish()
                 }
             }
         }, 3000)

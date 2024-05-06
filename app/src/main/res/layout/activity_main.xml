@@ -6,4 +6,252 @@
     android:layout_height="match_parent"
     tools:context=".view.MainActivity">
 
+    <RelativeLayout
+        android:id="@+id/container_points"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/container_image_user"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:elevation="2dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/container_rounder2"
+            app:cardBackgroundColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:elevation="4dp">
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_user"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="35dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/place_holder_profile"
+        android:src="@drawable/ic_account_circle_24"
+        android:elevation="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_user"
+        android:layout_marginTop="-10dp"
+        android:textSize="16sp"
+        android:textColor="@color/wine"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name"
+        android:background="@color/wine"
+        >
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/stars"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="60dp"
+            android:paddingVertical="8dp"
+            android:numStars="5"
+            android:progressTint="@color/white"
+            android:rating="0"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/container_points"
+        android:layout_marginTop="30dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/contianer_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        android:foregroundGravity="center">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           android:orientation="vertical">
+
+           <androidx.appcompat.widget.AppCompatButton
+               android:id="@+id/btn_a"
+               android:layout_width="wrap_content"
+               android:layout_height="60dp"
+               android:layout_marginTop="10dp"
+               android:padding="4dp"
+               android:textAlignment="center"
+               android:background="@drawable/container_button"
+               android:textColor="@color/white"
+               android:visibility="invisible"
+               android:clickable="true"/>
+
+           <androidx.appcompat.widget.AppCompatButton
+               android:id="@+id/btn_b"
+               android:layout_width="wrap_content"
+               android:layout_height="60dp"
+               android:layout_marginTop="10dp"
+               android:padding="4dp"
+               android:textAlignment="center"
+               android:background="@drawable/container_button"
+               android:textColor="@color/white"
+               android:visibility="invisible"
+               android:clickable="true"/>
+
+           <androidx.appcompat.widget.AppCompatButton
+               android:id="@+id/btn_c"
+               android:layout_width="wrap_content"
+               android:layout_height="60dp"
+               android:layout_marginTop="10dp"
+               android:padding="4dp"
+               android:textAlignment="center"
+               android:background="@drawable/container_button"
+               android:textColor="@color/white"
+               android:visibility="invisible"
+               android:clickable="true"/>
+
+       </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sad"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn_normal"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/btn_sad"
+            android:clickable="true" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_normal"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:layout_constraintStart_toEndOf="@id/btn_sad"
+            app:layout_constraintEnd_toStartOf="@id/btn_angry"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/btn_normal"
+            android:clickable="true" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_angry"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:layout_constraintStart_toEndOf="@id/btn_normal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/btn_angry"
+            android:clickable="true" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_neutral"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn_happy"
+            app:layout_constraintTop_toBottomOf="@id/btn_sad"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/btn_neutral"
+            android:clickable="true" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_happy"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:layout_constraintStart_toEndOf="@id/btn_neutral"
+            app:layout_constraintEnd_toStartOf="@id/btn_question"
+            app:layout_constraintTop_toBottomOf="@id/btn_normal"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/btn_happy"
+            android:clickable="true" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_question"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:layout_constraintStart_toEndOf="@id/btn_happy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_angry"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/btn_question"
+            android:clickable="true" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

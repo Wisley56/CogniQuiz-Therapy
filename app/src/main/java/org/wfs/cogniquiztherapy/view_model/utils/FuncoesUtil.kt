@@ -3,18 +3,18 @@ package org.wfs.cogniquiztherapy.view_model.utils
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import android.content.Intent.FLAG_ACTIVITY_NEW_TASK
 import android.os.Process
 import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
+import android.widget.RatingBar
 
 class FuncoesUtil {
 
-    fun proximaTela(context: Context, telaDestino: Class<*>) {
-        val intent = Intent(context, telaDestino)
-        intent.flags = FLAG_ACTIVITY_NEW_TASK
-        context.startActivity(intent)
+    fun proximaTela(activity: Activity, intent: Intent) {
+        //val intent = Intent(context, telaDestino)
+        //intent.flags = FLAG_ACTIVITY_NEW_TASK
+        activity.startActivity(intent)
     }
 
     fun fechaTela(activity: Activity) {
@@ -35,6 +35,15 @@ class FuncoesUtil {
             } else {
                 false // Indica que o evento não foi consumido
             }
+        }
+    }
+
+    fun updateRatingBar(ratingBar: RatingBar, hitsSequence: Int) {
+        val currentRating = ratingBar.rating
+        if(hitsSequence == 3) {
+            ratingBar.rating = currentRating + 0.5f + 1.0f
+        } else {
+            ratingBar.rating = currentRating + 0.5f
         }
     }
 
