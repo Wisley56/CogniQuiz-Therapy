@@ -124,7 +124,7 @@ class MainActivity : AppCompatActivity() {
             btnA.setOnClickListener(View.OnClickListener {
                 if(contQuestionsMiddle == 4 || ratingBar.rating == 5.0f) {
                     FuncoesUtil().updateRatingBar(ratingBar, hitsSequence)
-                    congratulationsDialog(this)
+                    congratulationsDialog(this, user)
                 }else if(btnA.text == correctAnswer) {
                     btnA.setBackgroundResource(R.drawable.container_button_answer_correct)
 
@@ -145,7 +145,7 @@ class MainActivity : AppCompatActivity() {
             btnB.setOnClickListener(View.OnClickListener {
                 if(contQuestionsMiddle == 4 || ratingBar.rating == 5.0f) {
                     FuncoesUtil().updateRatingBar(ratingBar, hitsSequence)
-                    congratulationsDialog(this)
+                    congratulationsDialog(this, user)
                 }else if (btnB.text == correctAnswer) {
                     btnB.setBackgroundResource(R.drawable.container_button_answer_correct)
 
@@ -166,7 +166,7 @@ class MainActivity : AppCompatActivity() {
             btnC.setOnClickListener(View.OnClickListener {
                 if(contQuestionsMiddle == 4 || ratingBar.rating == 5.0f) {
                     FuncoesUtil().updateRatingBar(ratingBar, hitsSequence)
-                    congratulationsDialog(this)
+                    congratulationsDialog(this, user)
                 } else if (btnC.text == correctAnswer) {
                     btnC.setBackgroundResource(R.drawable.container_button_answer_correct)
 
@@ -266,7 +266,7 @@ class MainActivity : AppCompatActivity() {
         btnOk.setOnClickListener(View.OnClickListener { myDialog.dismiss() })
     }
 
-    private fun congratulationsDialog(context: Context) {
+    private fun congratulationsDialog(context: Context, user: User) {
         val dialogBinding = layoutInflater.inflate(R.layout.congratulations_dialog, null)
 
         val myDialog = Dialog(context)
@@ -286,7 +286,9 @@ class MainActivity : AppCompatActivity() {
 
         val btnGoResult = dialogBinding.findViewById<AppCompatButton>(R.id.btn_go_results)
         btnGoResult.setOnClickListener(View.OnClickListener {
-            val intent = Intent(this, WelcomeActivity::class.java)
+            val intent = Intent(this, ResultScreenActivity::class.java)
+            intent.putExtra("stars", ratingBar.rating)
+            intent.putExtra("user", user)
             FuncoesUtil().proximaTela(this, intent)
             myDialog.dismiss()
             finish()

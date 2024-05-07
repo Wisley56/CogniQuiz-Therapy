@@ -29,5 +29,11 @@
     <string name="txt_go_results">Tela de resultados</string>
     <string name="txt_congratulations">Você concluiu nosso quiz, esperamos que tenha conseguido refletir e alcançado um auto conhecimento melhor para lidar com as situações desafiadoras da vida.</string>
     <string name="congratulations_title">Parabéns</string>
+    <string name="msg_2_stars">Parabéns por participar do quiz! Seu esforço é admirável. Não se preocupe com os resultados. Use-os para identificar áreas de melhoria e avaliar seu progresso. Pratique e se dedique, celebrando suas conquistas.
+        Lembre-se que pequenas conquistas são conquistas. Continue persistindo, você pode alcançar seus objetivos com dedicação.</string>
+    <string name="msg_3_5_stars">Parabéns por concluir o quiz! Seu esforço é notável. Use-o seu resultado como uma oportunidade para identificar áreas de crescimento e foco. Pratique e persista, valorizando cada passo.
+        Lembre-se que o progresso é gradual.  Continue dedicado, você está no caminho certo para alcançar seus objetivos.</string>
+    <string name="msg_5_stars">Parabéns por completar o quiz com sucesso! Seu desempenho é excelente. Use-o para reconhecer suas habilidades e identificar áreas de aprimoramento.
+        Pratique e persista, valorizando cada conquista. Lembre-se que o progresso é contínuo. Continue dedicado, você está no caminho certo para alcançar seus objetivos.</string>
 
 </resources>

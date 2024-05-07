@@ -95,7 +95,8 @@
             android:numStars="5"
             android:progressTint="@color/white"
             android:rating="0"
-            android:visibility="visible" />
+            android:visibility="visible"
+            android:isIndicator="true"/>
 
     </RelativeLayout>
 
@@ -143,7 +144,7 @@
            <androidx.appcompat.widget.AppCompatButton
                android:id="@+id/btn_a"
                android:layout_width="wrap_content"
-               android:layout_height="60dp"
+               android:layout_height="65dp"
                android:layout_marginTop="10dp"
                android:padding="4dp"
                android:textAlignment="center"
@@ -155,7 +156,7 @@
            <androidx.appcompat.widget.AppCompatButton
                android:id="@+id/btn_b"
                android:layout_width="wrap_content"
-               android:layout_height="60dp"
+               android:layout_height="65dp"
                android:layout_marginTop="10dp"
                android:padding="4dp"
                android:textAlignment="center"
@@ -167,7 +168,7 @@
            <androidx.appcompat.widget.AppCompatButton
                android:id="@+id/btn_c"
                android:layout_width="wrap_content"
-               android:layout_height="60dp"
+               android:layout_height="65dp"
                android:layout_marginTop="10dp"
                android:padding="4dp"
                android:textAlignment="center"
